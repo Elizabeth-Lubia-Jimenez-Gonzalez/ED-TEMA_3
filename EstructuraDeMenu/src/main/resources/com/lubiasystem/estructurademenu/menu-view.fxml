@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="18.0" xmlns="http://javafx.com" xmlns:fx="http://javafx.com"
+      fx:controller="com.lubiasystem.estructurademenu.controller.MenuController"
+      prefWidth="320" prefHeight="280"
+      style="-fx-background-color: linear-gradient(to bottom right, #1e1e24, #121214); -fx-padding: 30px;">
+
+    <!-- Título Principal Estilizado -->
+    <Label text="MENÚ PRINCIPAL" style="-fx-font-family: 'Segoe UI', Arial; -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #ffffff; -fx-padding: 0 0 10px 0;"/>
+
+    <!-- Botón PILA -->
+    <Button fx:id="btnPila" text="Estructura PILA" onAction="#abrirPila" prefWidth="180" prefHeight="38"
+            style="-fx-background-color: #2a2a32; -fx-text-fill: #ffffff; -fx-font-family: 'Segoe UI'; -fx-font-size: 13px; -fx-font-weight: bold; -fx-background-radius: 8px; -fx-border-color: #3a3a45; -fx-border-radius: 8px; -fx-cursor: hand;"/>
+
+    <!-- Botón COLA -->
+    <Button fx:id="btnCola" text="Estructura COLA" onAction="#abrirCola" prefWidth="180" prefHeight="38"
+            style="-fx-background-color: #2a2a32; -fx-text-fill: #ffffff; -fx-font-family: 'Segoe UI'; -fx-font-size: 13px; -fx-font-weight: bold; -fx-background-radius: 8px; -fx-border-color: #3a3a45; -fx-border-radius: 8px; -fx-cursor: hand;"/>
+
+    <!-- Botón LISTA -->
+    <Button fx:id="btnLista" text="Estructura LISTA" onAction="#abrirLista" prefWidth="180" prefHeight="38"
+            style="-fx-background-color: #2a2a32; -fx-text-fill: #ffffff; -fx-font-family: 'Segoe UI'; -fx-font-size: 13px; -fx-font-weight: bold; -fx-background-radius: 8px; -fx-border-color: #3a3a45; -fx-border-radius: 8px; -fx-cursor: hand;"/>
+</VBox>
